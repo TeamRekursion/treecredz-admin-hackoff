@@ -1,0 +1,56 @@
+name: treecredz_admin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^3.12.1
+  lottie: ^0.6.0
+  auto_size_text: ^2.1.0
+  firebase_core: ^0.5.0+1
+  google_sign_in: ^4.5.3
+  firebase_auth: ^0.18.0+1
+  cloud_firestore: ^0.14.0+2
+  cached_network_image: ^2.3.2+1
+  salomon_bottom_bar: ^2.0.0
+  flutter_launcher_icons: ^0.8.1
+  qrscan: ^0.2.17
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+    - assets/images/
+    - assets/stats.json
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/logo.png"
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 300
